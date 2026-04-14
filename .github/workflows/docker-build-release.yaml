@@ -1,7 +1,7 @@
 name: docker-build-release
 
 env:
-  ghcr_repository: "ghcr.io/${{ github.repository }}"
+  ghcr_repository: "ghcr.io/alacrity-education/kutt-oidc"
 
 on:
   release:
