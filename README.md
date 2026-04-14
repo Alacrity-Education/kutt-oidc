@@ -1,3 +1,6 @@
+> [!NOTE]
+> This fork merges changes required for fixing OIDC authentication flow ([!967](https://github.com/thedevs-network/kutt/pull/967)).
+
 <p align="center"><a href="https://kutt.it" title="kutt.it"><img src="https://raw.githubusercontent.com/thedevs-network/kutt/9d1c873897c3f5b9a1bd0c74dc5d23f2ed01f2ec/static/images/logo-github.png" alt="Kutt.it"></a></p>
 
 # Kutt.it
@@ -136,6 +139,7 @@ You can use files for each of the variables by appending `_FILE` to the name of 
 | `MAIL_SECURE` | Whether use SSL for the email server connection | `false` | `true` | 
 | `OIDC_ENABLED` | Enable OpenID Connect | `false` | `true` | 
 | `OIDC_ISSUER` | OIDC issuer URL | - | `https://example.com/some/path` | 
+| `OIDC_PROMPT` | OIDC prompt parameter | - | `login` |
 | `OIDC_CLIENT_ID` | OIDC client id | - | `example-app` | 
 | `OIDC_CLIENT_SECRET` | OIDC client secret | - | `some-secret` | 
 | `OIDC_SCOPE` | OIDC Scope | `openid profile email` | `openid email` | 
