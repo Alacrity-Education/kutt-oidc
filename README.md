@@ -85,7 +85,7 @@ Various docker-compose configurations are available. Use `docker compose -f <fil
 - [`docker-compose.mariadb.yml`](./docker-compose.mariadb.yml): Starts Kutt with MariaDB and Redis.
   - Required environment variables: `REDIS_ENABLED`, `DB_PASSWORD`, `DB_NAME`, `DB_USER`, `DB_PORT`
 
-Official Kutt Docker image is available on [Docker Hub](https://hub.docker.com/r/kutt/kutt).
+An unofficial Docker image of this fork is available on [GHCR](https://ghcr.io/alacrity-education/kutt-oidc).
 
 ## API
 
