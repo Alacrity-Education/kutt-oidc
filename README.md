@@ -1,5 +1,6 @@
 > [!NOTE]
-> This fork merges changes required for fixing OIDC authentication flow ([!967](https://github.com/thedevs-network/kutt/pull/967)).
+> This fork merges changes required for fixing OIDC authentication flow ([!967](https://github.com/thedevs-network/kutt/pull/967)).  
+> To use it, just replace the docker image with `ghcr.io/alacrity-education/kutt-oidc:v3.2.4-rc1`
 
 <p align="center"><a href="https://kutt.it" title="kutt.it"><img src="https://raw.githubusercontent.com/thedevs-network/kutt/9d1c873897c3f5b9a1bd0c74dc5d23f2ed01f2ec/static/images/logo-github.png" alt="Kutt.it"></a></p>
 
